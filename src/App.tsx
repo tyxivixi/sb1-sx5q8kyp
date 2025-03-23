@@ -74,7 +74,7 @@ function App() {
             className="absolute w-full h-full transition-transform duration-[8s] ease-out"
             style={{ 
               transform: `rotate(${rotation}deg)`,
-              mixBlendMode: 'multiply' // This helps with transparency
+              mixBlendMode: 'normal' // This helps with transparency
             }}
           />
           
